@@ -43,3 +43,9 @@ print(69 in wolverine)
 print(70 in wolverine)
 print(69 not in wolf)
 print(not 69 in wolf)
+
+if 69 in wolf:
+    print("yes, you're 30 and still got some juices left")
+
+if 70 in wolverine:
+    print("yes, you'll continue to have those juices till you're 70")
