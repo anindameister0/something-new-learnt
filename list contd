@@ -67,4 +67,4 @@ print(wolverine)
 wolverine.append(g)
 marvel=wolverine #trying stupidity, although print wolverine would have given the same output
 print(marvel)
-
+print(len(marvel))
