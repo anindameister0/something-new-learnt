@@ -6,3 +6,18 @@ e=int(input("enter 5th number:"))
 wolf=[a,b,c,d,e]
 print(wolf+ [4,5,6,7,8])
 print(wolf*3)
+
+#program2
+a=int(input("enter 1st number:"))
+b=int(input("enter 2nd number:"))
+c=int(input("enter 3rd number:"))
+d=int(input("enter 4th number:"))
+e=str(input("enter 5th number:"))
+wolf=[a,b,c,d,e]
+
+print("69"in wolf)
+print("2"in wolf) #probably 2 is considered as string here
+print(2in wolf) #proof that 2 was considered as string
+print("3.0"in wolf) #again 3.0 is considered as string
+print(3.0in wolf) #proof that this float can find integer in input, python is intelligence
+print("5"in wolf) #proof that this identifies string, only when it's defined as string
