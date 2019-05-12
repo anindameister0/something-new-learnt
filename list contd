@@ -21,3 +21,25 @@ print(2in wolf) #proof that 2 was considered as string
 print("3.0"in wolf) #again 3.0 is considered as string
 print(3.0in wolf) #proof that this float can find integer in input, python is intelligence
 print("5"in wolf) #proof that this identifies string, only when it's defined as string
+
+
+#program 3, was able to write this because of above code
+a=int(input("enter 1st number:"))
+b=int(input("enter 2nd number:"))
+c=int(input("enter 3rd number:"))
+d=int(input("enter 4th number:"))
+e=str(input("enter 5th number:"))
+wolf=[a,b,c,d,e]
+print(wolf)
+print(not 69 in wolf)
+wolf[1]=wolf[2]+66
+print(69 in wolf)
+print(wolf[1])
+f=int(wolf[2])+int(67)
+wolverine=(wolf+[f])
+print(wolverine)
+print(69 in wolf)
+print(69 in wolverine)
+print(70 in wolverine)
+print(69 not in wolf)
+print(not 69 in wolf)
