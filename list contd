@@ -67,4 +67,12 @@ print(wolverine)
 wolverine.append(g)
 marvel=wolverine #trying stupidity, although print wolverine would have given the same output
 print(marvel)
+
 print(len(marvel))
+
+index=11 #doesnt return an error: still human slave so doesn't put unwanted 0 or word, just puts it
+marvel.insert(index,'ix')
+print(marvel)
+index=2
+marvel.insert(index,'the next number is 2')
+print(marvel)
