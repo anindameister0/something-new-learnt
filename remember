@@ -40,3 +40,9 @@ print("note this is a string and hence I am also using concatenation:"+dog[6])
     
 dog[2]=69 #doing list manipulation
 print(dog)
+
+
+dog[3]=dog[0] #possiby just values so str&int can be played with
+print(dog[3])
+print(dog[0])
+print(dog[2])
