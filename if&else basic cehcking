@@ -5,4 +5,25 @@ if a>b:
 else:
     print("the second number is higher")
 
+a=float(input("enter a number:"))
+b=float(input("enter another number"))
+c=int
+
+
+if a==69 or c==b:
+    print("why use number as well to recall of sex")
+elif b==69 or c==a:
+    print("why use number as well to recall of sex")
+elif a>b:
+    print("the first number you have put in is higher")
+elif a==b:
+    print("the first number is equal to the second")
+else:
+    print("the second number you have put in is higher")
+
+
+
+    
+
+
     
