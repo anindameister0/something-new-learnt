@@ -49,3 +49,22 @@ if 69 in wolf:
 
 if 70 in wolverine:
     print("yes, you'll continue to have those juices till you're 70")
+    
+#program 4
+a=int(input("enter 1st number:"))
+b=int(input("enter 2nd number:"))
+c=int(input("enter 3rd number:"))
+d=int(input("enter 4th number:"))
+e=str(input("enter 5th number:"))
+g=str(input("please enter a word:"))#words and numbers both can be used
+wolf=[a,b,c,d,e]
+print(wolf)
+f=int(wolf[2])+int(66)
+wolverine=(wolf+[f])
+print(wolverine)
+#doest fucking work -----marvel=wolverine.append(g)
+# not this as well --------print(marvel)
+wolverine.append(g)
+marvel=wolverine #trying stupidity, although print wolverine would have given the same output
+print(marvel)
+
