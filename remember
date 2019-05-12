@@ -38,3 +38,5 @@ print(dog[5])
 print("note this is a string and hence I am also using concatenation:"+dog[6])
 #remember this: TypeError: can only concatenate str (not "list") to str
     
+dog[2]=69 #doing list manipulation
+print(dog)
