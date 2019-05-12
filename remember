@@ -5,3 +5,36 @@ print(things[2])
 print(things[2][2])#this represents the'number=3 first line'
 print(things[3])
 print(things[0])
+
+#2nd program
+a=str(input("enter 1st number:"))
+b=str(input("enter 2nd number:"))
+c=str(input("enter 3rd number:"))
+d=str(input("enter 4th number:"))
+e=str(input("enter 5th number:"))
+f=69
+dog=[a,b,c,[d],e,f]
+print("the first number here is:" +dog[0]) #float doesnt do concatenation
+
+print(dog[3][0])
+print(dog[3])
+print(dog[5])
+
+#program3
+a=str(input("enter 1st number:"))
+b=int(input("enter 2nd number:"))
+c=int(input("enter 3rd number:"))
+d=int(input("enter 4th number:"))
+e=str(input("enter 5th number:"))
+f=69
+g=str(input("enter 6th number:"))
+dog=[a,b,c,[d,c,b],e,f,g] #[ [] ] this is list within a list
+print("the first number here is:" +dog[0]) #float doesnt do concatenation
+
+print(dog[3][0])
+print(dog[3][1])
+print(dog[3])
+print(dog[5])
+print("note this is a string and hence I am also using concatenation:"+dog[6])
+#remember this: TypeError: can only concatenate str (not "list") to str
+    
