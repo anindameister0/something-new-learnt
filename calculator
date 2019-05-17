@@ -17,3 +17,35 @@ if c=='/':
 else:
     print("I know you haven't entered any operator symbol")
         
+#program2
+a=float(input("enter 1st number:"))
+b=float(input("enter 'not 1st' number:"))
+c=str(input("+,-,*,/:"))
+d=float
+if c=='+':
+    d=a+b
+    print(d)
+if c=='-':
+    d=a-b
+    print(d)
+if c=='*':
+    d=a*b
+    print(d)
+if c=='/':
+    d=a/b
+    print(d)
+a=d
+e=float(input("if you would like to continue then enter another number:"))
+c=str(input("+,-,*,/:"))
+if c=='+':
+    d=a+e
+    print(d)
+if c=='-':
+    d=a-e
+    print(d)
+if c=='*':
+    d=a*e
+    print(d)
+if c=='/':
+    d=a/e
+    print(d)
