@@ -1,0 +1,19 @@
+import sys
+a=float(input("enter 1st number:"))
+b=float(input("enter 'not 1st'  number:"))
+c=str(input("+,-,*,/:"))
+if c=='+':
+    print(a+b)
+    sys.exit(0)
+if c=='-':
+    print(a-b)
+    sys.exit(0)
+if c=='*':
+    print(a*b)
+    sys.exit(0)
+if c=='/':
+    print(a//b)
+    sys.exit(0)
+else:
+    print("I know you haven't entered any operator symbol")
+        
