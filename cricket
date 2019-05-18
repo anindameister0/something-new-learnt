@@ -1,0 +1,91 @@
+import sys
+from random import*
+print("Welcome to the T20 match between Kolkata and Dhaka")
+
+z=str(input("please choose Kolkata or Dhaka:"))
+y="Kolkata"
+x="Dhaka"
+u="batting"
+v="fielding"
+
+if z not in "Kolkata or Dhaka":
+    print("you're not a player")
+    sys.exit(0)
+elif z==y:
+    print("so you represent:",z)
+    print("the computer is:",x)
+    print("whenever you're ready, the toss would begin")
+elif z==x:
+    print("the user is:",z)
+    print("the computer is:",y)
+    print("whenever you're ready, the toss would begin")
+    
+
+a=str(input("are you ready yes/no/maybe:"))
+
+if a not in "yes/no/maybe":
+    print("you're not a player")
+    sys.exit(0)
+else:
+    if a=="yes":
+        print("let the coin decide, who takes advantage of the field")
+    elif a=="no":
+        print("please go fuck yourself")
+        sys.exit(0)
+    elif a=="maybe":
+        print("you'll at-least come to know where you stand")
+    else:
+        print("bbye")
+        sys.exit(0)
+        
+b=str(input("please choose heads or tails:"))
+
+if b not in "heads or tails":
+    print("you're not a player")
+    sys.exit(0)
+else:
+    ans=0
+    if b=="heads":
+        ans=randint(0,1)
+    elif b=="tails":
+        ans=randint(0,1)
+    else:
+        print("match disqualified")
+    print("the result is: ",ans)    
+
+if ans==1:
+    print("well it's a head")
+elif ans==0:
+    print("it's TAILS")
+
+if b=="heads" and ans==1:
+    print("you won the toss",z)
+    w=str(input("please choose batting or fielding:"))
+    if w==u:
+        print("so",y + "goes for",v)
+    elif w==v:
+        print("so",y + "goes for",u)    
+elif b=="heads" and ans==0:
+    print("you lose the toss",z)
+    t=randint(0,1)
+    if t==0:
+        print("team",x + "won the toss and would choose to field")
+    elif t==1:
+        print("team",x + "won the toss and would choose to bat")
+elif b=="tails" and ans==1:
+    print("you lose the toss",z)
+    t=randint(0,1)
+    if t==0:
+        print("team",x + "won the toss and would choose to field")
+    elif t==1:
+        print("team",x + "won the toss and would choose to bat")
+
+elif b=="tails" and ans==0:
+    print("you won the toss",z)
+    w=str(input("please choose batting or fielding:"))
+    if w==u:
+        print("so",y + "goes for",v)
+    elif w==v:
+        print("so",y + "goes for",u)
+
+   
