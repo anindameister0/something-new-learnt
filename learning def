@@ -1,0 +1,13 @@
+x=int
+y=int
+
+def mathematical_operation(x,y):
+    print(x+y)
+    print(x-y)
+    print(x*y)
+    print(x/y)
+
+a=float(input("enter 1st number:"))
+b=float(input("enter 'not 1st'  number:"))
+mathematical_operation(a,b)
+
