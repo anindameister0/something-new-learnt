@@ -69,23 +69,36 @@ elif b=="heads" and ans==0:
     print("you lose the toss",z)
     t=randint(0,1)
     if t==0:
-        print("team",x + "won the toss and would choose to field")
+        print("team",x + " won the toss and would choose to field")
     elif t==1:
-        print("team",x + "won the toss and would choose to bat")
+        print("team",x + " won the toss and would choose to bat")
 elif b=="tails" and ans==1:
     print("you lose the toss",z)
     t=randint(0,1)
     if t==0:
-        print("team",x + "won the toss and would choose to field")
+        print("team",x + " won the toss and would choose to field")
     elif t==1:
-        print("team",x + "won the toss and would choose to bat")
+        print("team",x + " won the toss and would choose to bat")
 
 elif b=="tails" and ans==0:
     print("you won the toss",z)
     w=str(input("please choose batting or fielding:"))
     if w==u:
-        print("so",y + "goes for",v)
+        print("so",y + " goes for",v)
     elif w==v:
-        print("so",y + "goes for",u)
+        print("so",y + " goes for",u)
+
+print("Welcome to the T20 match between Kolkata and Dhaka")
+print("Here's the players squad")
+print("   Kolkata    "+"    Dhaka      ")
+print("1. KWA(bat)   "+"    KOI(bat)(C)")
+print("2. O  (bat)   "+"    OU (bat)   ")
+print("3. LWO(bat)(C)"+"    LO (bat)   ")
+print("4. KAA(wicket)"+"    KA (wicket)")
+print("5. AA(ball)   "+"    AU (ball)  ")
+print("6. TA(ball)   "+"    TWA(ball)  ")
+print("7. AHA(ball)  "+"    AWHA(ball) ")
+
+
 
    
