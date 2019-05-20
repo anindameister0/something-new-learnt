@@ -100,5 +100,85 @@ print("6. TA(ball)   "+"    TWA(ball)  ")
 print("7. AHA(ball)  "+"    AWHA(ball) ")
 
 
+#dissecting
+
+if z==x and ans==1:
+    print("you won the toss",z)
+    w=str(input("please choose batting or fielding:"))
+    if w==u:
+        print("so",x + " goes for",u)
+        print("and",y + " goes for",v)
+    elif w==v:
+        print("so",x + " goes for",v)
+        print("and",y + " goes for",u)
+elif z==y and ans==1:
+    print("you won the toss",z)
+    w=str(input("please choose batting or fielding:"))
+    if w==u:
+        print("so",y + "goes for",u)
+        print("and",x + " goes for",v)
+    elif w==v:
+        print("so",y + "goes for",v)
+        print("and",x + " goes for",u)
+elif z==x and ans==0:
+    print("you won the toss",z)
+    w=str(input("please choose batting or fielding:"))
+    if w==u:
+        print("so",x + "goes for",u)
+    elif w==v:
+        print("so",x + "goes for",v)    
+elif z==y and ans==0:
+    print("you won the toss",z)
+    w=str(input("please choose batting or fielding:"))
+    if w==u:
+        print("so",y + "goes for",u)
+    elif w==v:
+        print("so",y + "goes for",v)
+    print("you lose the toss",z)
+    t=randint(0,1)
+    if t==0 and z==x:
+        print("team",y + " won the toss and would choose to field")
+    elif t==1 and z==x:
+        print("team",y + " won the toss and would choose to bat")
+elif b=="tails" and ans==1:
+    print("you lose the toss",z)
+    t=randint(0,1)
+    if t==0 and z==y:
+        print("team",x + " won the toss and would choose to field")
+    elif t==1 and z==y:
+        print("team",x + " won the toss and would choose to bat")
+
+elif b=="tails" and ans==0:
+    print("you won the toss",z)
+    w=str(input("please choose batting or fielding:"))
+    if w==u:
+        print("so",y + " goes for",u)
+    elif w==v:
+        print("so",x + " goes for",v)
+
+print("Welcome to the T20 match between Kolkata and Dhaka")
+print("Here's the players squad")
+print("   Kolkata      "+"    Dhaka        ")
+print("1. KWA(r:bat)   "+"    KOI(l:bat)(C)")
+print("2. O  (l:bat)   "+"    OU (r:bat)   ")
+print("3. LWO(r:bat)(C)"+"    LO (r:bat)   ")
+print("4. KAA(r:wicket)"+"    KA (l:wicket)")
+print("5. AA(r:bat)    "+"    AU (l:all)   ")
+print("6. TA(r:bat)    "+"    TWA(r:bat)   ")
+print("7. AHA(r:all)   "+"    AWHA(r:ball) ")
+print("8. KBA(r:ball)  "+"    KB (l:ball)  ")
+print("9. AB(l:ball)   "+"    AUU(r:ball)  ")
+print("10.TB(r:ball)   "+"    TBA(r:ball)  ")
+print("11.ABA(r:ball)  "+"    AWBA(l:ball) ")
+
+print("Let the match begin, and the best team win")
+
+r=str(input("please choose who's gonnabe at the stricker's end:"))
+s=str(input("please choose who's gonnabe at the non-stricker's end:"))
+
+
+
+
+   
 
    
