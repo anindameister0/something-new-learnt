@@ -193,4 +193,23 @@ elif b==ans and z==y:
           print("Kolkata has chosen to bowl first, Dhaka loses the toss and got to bat")
    
 
-   
+#R bhal lagena
+
+if ans==1:
+    print("well it's a head")
+    if b==ans and z==x:
+        t=str(input("well Dhaka, you have won the toss and do you choose to bat or bowl:"))
+        if t==u:
+            print("Dhaka has chosen to bat first, Kolkata loses the toss and got to bowl")
+        elif t==v:
+            print("Dhaka has chosen to bowl first, Kolkata loses the toss and got to bat")
+elif ans==0:
+    print("it's TAILS")
+    if b==ans and z==y:
+        t=str(input("well Kolkata, you have won the toss and do you choose to bat or bowl:"))
+        if t==u:
+            print("Kolkata has chosen to bat first, Dhaka loses the toss and got to bowl")
+        elif t==v:
+            print("Kolkata has chosen to bowl first, Dhaka loses the toss and got to bat")
+    
+
