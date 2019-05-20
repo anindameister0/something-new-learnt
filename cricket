@@ -177,8 +177,20 @@ r=str(input("please choose who's gonnabe at the stricker's end:"))
 s=str(input("please choose who's gonnabe at the non-stricker's end:"))
 
 
-
-
+#Banchod sala
+if b==ans and z==x:
+    t=str(input("well Dhaka, you have won the toss and do you choose to bat or bowl:")
+          print(t)
+          if t==u:
+          print("Dhaka has chosen to bat first, Kolkata loses the toss and got to bowl")
+          elif t==v:
+          print("Dhaka has chosen to bowl first, Kolkata loses the toss and got to bat")
+elif b==ans and z==y:
+          t=str(input("well Kolkata, you have won the toss and do you choose to bat or bowl:")
+          if t==u:
+          print("Kolkata has chosen to bat first, Dhaka loses the toss and got to bowl")
+          elif t==v:
+          print("Kolkata has chosen to bowl first, Dhaka loses the toss and got to bat")
    
 
    
