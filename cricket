@@ -213,3 +213,96 @@ elif ans==0:
             print("Kolkata has chosen to bowl first, Dhaka loses the toss and got to bat")
     
 
+#attempted to fix
+
+import sys
+from random import*
+print("Welcome to the T20 match between Kolkata and Dhaka")
+
+z=str(input("please choose Kolkata or Dhaka:"))
+y="Kolkata"
+x="Dhaka"
+u="bat"
+v="bowl"
+t=randint(0,1)
+q=randint(0,1)
+r=randint(0,6)
+
+if z not in "Kolkata or Dhaka":
+    print("you're not a player")
+    sys.exit(0)
+elif z==y:
+    print("so you represent:",z)
+    print("the computer is:",x)
+    print("whenever you're ready, the toss would begin")
+elif z==x:
+    print("the user that's you :",z)
+    print("the computer is:",y)
+    print("whenever you're ready, the toss would begin")
+    
+
+a=str(input("are you ready yes/no/maybe:"))
+
+if a not in "yes/no/maybe":
+    print("you're not a player")
+    sys.exit(0)
+else:
+    if a=="yes":
+        print("let the coin decide, who takes advantage of the field")
+    elif a=="no":
+        print("please go fuck yourself")
+        sys.exit(0)
+    elif a=="maybe":
+        print("you'll at-least come to know where you stand")
+    else:
+        print("bbye")
+        sys.exit(0)
+        
+w=str(input("please choose heads or tails:"))
+if w=="heads" and t==1:
+    print("You have won the toss",z)
+    s=str(input("would you like to bat or bowl:"))
+    if s==u and z==x:
+        print("You choose batting, Dhaka and hence Kolkata goes for fielding")
+    elif s==v and z==x:
+        print("You choose fielding, Dhaka and hence Kolkata goes for batting")
+    elif s==u and z==y:
+        print("You choose batting, Kolkata and hence Dhaka goes for fielding")
+    elif s==v and z==y:
+        print("You choose fielding, Kolkata and hence Dhaka goes for batting")
+elif w=="tails" and t==0:
+    print("You have won the toss",z)
+    s=str(input("would you like to bat or bowl:"))
+    if s==u and z==x:
+        print("You choose batting, Dhaka and hence Kolkata goes for fielding")
+    elif s==v and z==x:
+        print("You choose fielding, Dhaka and hence Kolkata goes for batting")
+    elif s==u and z==y:
+        print("You choose batting, Kolkata and hence Dhaka goes for fielding")
+    elif s==v and z==y:
+        print("You choose fielding, Kolkata and hence Dhaka goes for batting")
+elif w=="heads" and t==0:
+    print("You have lost the toss",z)
+    if z==x and q==1:
+        print("Kolkata goes for batting and Dhaka would have to choose fielding")
+    elif z==x and q==0:
+        print("Kolkata goes for fielding and Dhaka would have to choose batting")
+    elif z==y and q==1:
+        print("Dhaka goes for batting and Kolkata would have to choose fielding")
+    elif z==y and q==0:
+        print("Dhaka goes for fielding and Kolkata would have to choose batting")
+elif w=="tails" and t==1:
+    print("You have lost the toss",z)
+    if z==x and q==1:
+        print("Kolkata goes for batting and Dhaka would have to choose fielding")
+    elif z==x and q==0:
+        print("Kolkata goes for fielding and Dhaka would have to choose batting")
+    elif z==y and q==1:
+        print("Dhaka goes for batting and Kolkata would have to choose fielding")
+    elif z==y and q==0:
+        print("Dhaka goes for fielding and Kolkata would have to choose batting")
+
+
+
+
+   
